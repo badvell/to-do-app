@@ -57,6 +57,11 @@ form button:hover {
   list-style: none;
 }
 
+.img {
+  width: 30px;
+  height: 24px;
+}
+
 .todo {
   display: flex;
   justify-content: space-between;
