@@ -31,6 +31,7 @@ form button {
   border: none;
   background: white;
   border-radius: 5px;
+  max-width: 300px;
 }
 
 form button {
@@ -52,7 +53,7 @@ form button:hover {
 }
 
 .todo__list {
-  min-width: 30%;
+  min-width: 90%;
   list-style: none;
 }
 
@@ -66,6 +67,15 @@ form button:hover {
   font-size: 1.5rem;
   border-radius: 5px;
   transition: all 0.4s ease;
+}
+
+.todo__btn,
+.todo__btn:link,
+.todo__btn:visited {
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 5px;
 }
 
 .todo li {

@@ -6,7 +6,7 @@ const filterOption = document.querySelector('.filter__todo');
 document.addEventListener('DOMContentLoaded', getTodos);
 todoBtn.addEventListener('click', addTodo);
 todoList.addEventListener('click', deleteCheck);
-filterOption.addEventListener('click', filterTodo);
+// filterOption.addEventListener('click', filterTodo);
 
 function addTodo(evt) {
   evt.preventDefault();
